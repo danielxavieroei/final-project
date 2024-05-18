@@ -1,0 +1,82 @@
+.navbar-custom{
+    padding: 10px 0px;
+    background: #fff;
+
+    .logo-brand{
+        img{
+            width: 150px;
+        }
+    }
+    
+    .nav-item{
+        display: flex;
+        gap: 30px;
+        justify-content: end; 
+    }
+}
+
+.hero-section {
+    height: 100vh;
+}
+
+.hero-caption-wrap {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 100vh;
+}
+
+.about-section{
+    background: rgb(90, 92, 94);
+    padding: 80px 0px;
+    h2, .bi{
+        text-align: center;
+    }
+  
+}
+
+.ksrt-section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.usp-image {
+    padding: 50px 0px;
+    max-width: 100%;         
+    display: block;          
+    margin: 0 auto;          
+}
+
+.caption-group {
+    text-align: left; 
+    flex: 1; 
+}
+
+.hero-image {
+    width: 700px; 
+    margin-left: 20px; 
+    flex: 0 0 auto; 
+}
+
+.instacaption-group {
+    padding-bottom: 40px;
+    text-align: left; 
+    flex: 1;
+}
+
+.instagramimage{
+    padding: 50px 0px;
+    text-align: center;
+    .portfolio-wrap{
+        .portfolio-item{
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.footer-top{
+    padding: 80px 0px;
+    background: #666;
+    color: #fff;
+}
